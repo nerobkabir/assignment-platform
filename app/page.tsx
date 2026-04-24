@@ -3,12 +3,10 @@ import Link from 'next/link';
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-[#080C14] text-white overflow-hidden font-sans">
-      {/* Ambient background effects */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-[-20%] left-[10%] w-[600px] h-[600px] rounded-full bg-emerald-500/8 blur-[120px]" />
         <div className="absolute bottom-[-10%] right-[5%] w-[500px] h-[500px] rounded-full bg-teal-400/6 blur-[100px]" />
         <div className="absolute top-[40%] right-[30%] w-[300px] h-[300px] rounded-full bg-cyan-500/5 blur-[80px]" />
-        {/* Grid overlay */}
         <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
@@ -45,7 +43,6 @@ export default function HomePage() {
 
       {/* Hero */}
       <main className="relative z-10 max-w-7xl mx-auto px-8 pt-20 pb-16">
-        {/* Badge */}
         <div className="flex justify-center mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-xs font-semibold tracking-wide">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -53,7 +50,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Headline */}
         <div className="text-center max-w-4xl mx-auto mb-8">
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tight mb-6">
             <span className="text-white">Smarter</span>
@@ -70,7 +66,6 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* CTAs */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-20">
           <Link
             href="/auth"
@@ -89,7 +84,6 @@ export default function HomePage() {
           </Link>
         </div>
 
-        {/* Stats row */}
         <div className="flex justify-center gap-12 mb-20">
           {[
             { value: '3', label: 'AI Features' },
@@ -103,11 +97,9 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* Dashboard preview card */}
         <div className="relative max-w-4xl mx-auto mb-24" id="features">
           <div className="absolute inset-0 bg-gradient-to-t from-[#080C14] via-transparent to-transparent z-10 rounded-3xl" />
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-sm overflow-hidden shadow-2xl shadow-black/50">
-            {/* Fake browser bar */}
             <div className="flex items-center gap-2 px-4 py-3 border-b border-white/10 bg-white/[0.02]">
               <div className="w-3 h-3 rounded-full bg-red-500/60" />
               <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
@@ -116,7 +108,6 @@ export default function HomePage() {
                 <span className="text-xs text-slate-500">edutrack.vercel.app/dashboard/instructor</span>
               </div>
             </div>
-            {/* Fake dashboard content */}
             <div className="p-6 grid grid-cols-4 gap-4">
               {[
                 { label: 'Assignments', val: '12', color: 'from-blue-500/20 to-blue-600/10 border-blue-500/20' },
@@ -147,8 +138,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-
-        {/* Feature cards */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-20">
           {[
             {
