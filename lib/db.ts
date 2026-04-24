@@ -1,6 +1,6 @@
 import { Assignment, Submission, User } from '@/types';
 
-// In-memory database (replace with real DB in production)
+// In-memory database
 let users: User[] = [
   {
     id: 'inst-1',

@@ -2,10 +2,10 @@
 
 A full-stack Next.js application bridging instruction and evaluation with AI-powered assistance.
 
-## 🚀 Live Demo
-[Deploy on Vercel](https://vercel.com)
+## Live Demo
+[Deploy on Vercel](https://assignment-analytics-app.vercel.app/)
 
-## ✨ Features
+## Features
 
 ### Instructor Role
 - Create assignments with title, description, deadline, and difficulty level
@@ -21,7 +21,7 @@ A full-stack Next.js application bridging instruction and evaluation with AI-pow
 - Progress tracking dashboard with visual progress bar
 - AI note improvement suggestions
 
-## 🤖 AI Implementation
+## AI Implementation
 
 The platform integrates a smart AI assistance system with three core functions:
 
@@ -33,7 +33,7 @@ The platform integrates a smart AI assistance system with three core functions:
 
 > The AI feature is currently implemented with intelligent mock logic that demonstrates the automation workflow. To connect to a live LLM, replace the logic in `app/api/ai/route.ts` with an OpenAI or Anthropic API call.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -42,24 +42,24 @@ The platform integrates a smart AI assistance system with three core functions:
 - **Charts**: Recharts (PieChart + BarChart)
 - **Icons**: Lucide React
 
-## 📦 Installation
+## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/nerobkabir/assignment-platform.git
 cd assignment-platform
 npm install
 cp .env.local.example .env.local
 npm run dev
 ```
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 | Role       | Email                   | Password    |
 |------------|-------------------------|-------------|
 | Instructor | instructor@demo.com     | password123 |
 | Student    | student@demo.com        | password123 |
 
-## 🚀 Deployment (Vercel)
+## Deployment (Vercel)
 
 1. Push to GitHub
 2. Connect repo to Vercel
@@ -68,7 +68,7 @@ npm run dev
    - `NEXTAUTH_URL` = your Vercel URL
 4. Deploy!
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
