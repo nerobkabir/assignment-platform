@@ -154,7 +154,7 @@ export default function AssignmentsPage() {
                   )}
                 </div>
 
-                {/* Show feedback if available */}
+                {/* Show feedback */}
                 {userSub?.feedback && (
                   <div className="mt-3 bg-blue-50 border border-blue-100 rounded-xl p-3">
                     <p className="text-xs font-medium text-blue-700 mb-1">Instructor Feedback:</p>
