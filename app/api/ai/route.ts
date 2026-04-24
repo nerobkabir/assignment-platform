@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
 
-// AI Feature: Smart feedback & description enhancer
-// Uses mock logic to demonstrate AI integration pattern
-// Replace with real OpenAI/Anthropic API call in production
+
 
 function generateAIFeedback(note: string, status: string): string {
   const feedbackTemplates = {
