@@ -51,7 +51,7 @@ export default function AuthPage() {
 
   return (
     <div className="min-h-screen bg-[#080C14] flex items-center justify-center px-4 relative overflow-hidden">
-      {/* Ambient background */}
+
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-[-15%] right-[20%] w-[500px] h-[500px] rounded-full bg-emerald-500/8 blur-[120px]" />
         <div className="absolute bottom-[-10%] left-[10%] w-[400px] h-[400px] rounded-full bg-teal-400/6 blur-[100px]" />
@@ -66,7 +66,6 @@ export default function AuthPage() {
       </div>
 
       <div className="w-full max-w-md relative z-10">
-        {/* Back link */}
         <div className="mb-8 text-center">
           <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-slate-300 text-sm transition-colors group">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="group-hover:-translate-x-0.5 transition-transform">
@@ -109,7 +108,6 @@ export default function AuthPage() {
           </button>
         </div>
 
-        {/* Divider */}
         <div className="flex items-center gap-4 mb-6">
           <div className="flex-1 h-px bg-white/8" />
           <span className="text-xs text-slate-600 font-medium">or sign in manually</span>
