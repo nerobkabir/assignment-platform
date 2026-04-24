@@ -105,7 +105,7 @@ export default function AssignmentsPage() {
           ))}
         </div>
 
-        {/* Assignments Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {filtered.map(asgn => {
             const userSub = submissions.find(s => s.assignmentId === asgn.id);

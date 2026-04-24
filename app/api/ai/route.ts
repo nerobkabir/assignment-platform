@@ -3,7 +3,6 @@ import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
 
 
-
 function generateAIFeedback(note: string, status: string): string {
   const feedbackTemplates = {
     accepted: [
