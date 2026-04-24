@@ -42,7 +42,6 @@ export async function POST(req: NextRequest) {
   const body = await req.json();
   const { action, data } = body;
 
-  // Simulate AI processing delay
   await new Promise(resolve => setTimeout(resolve, 800));
 
   if (action === 'generate_feedback') {
